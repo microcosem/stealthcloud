@@ -1,0 +1,6 @@
+---
+- name: tor
+  src: https://github.com/AnarchoTechNYC/ansible-role-tor
+
+- name: nextcloud
+  src: https://github.com/aubrel/ansible-nextcloud
