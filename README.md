@@ -1,5 +1,7 @@
 # Stealthcloud
 
+![](stealthcloud.png)
+
 > :exclamation: _This project is under construction!_
 
 Stealthcloud is a delicious mixture of Ansible roles that provide the user with an automatic spin-up of a [Nextcloud](https://nextcloud.com/) instance hosted on a stealth [Onion service](https://www.torproject.org/docs/onion-services). It also implements specific roles for hardening the base configuration of the server used.
