@@ -12,8 +12,4 @@ Like vegetables in a soup, Stealthcloud utilizes the following roles as ingredie
 
 * [ansible-nextcloud](https://github.com/aubrel/ansible-nextcloud) - Basic Nextcloud provisioning role.
 * [ansible-role-tor](https://github.com/AnarchoTechNYC/ansible-role-tor) - Stealth onion service provisioning role. One can also find a lot of great further explanations of Onion services and specifics in this repository.
-
-> ### Forthcoming ingredients (roles)
-
-> * ansible-role-ssh-harden
-> * ansible-role-iptables
+* [ansible-role-common](https://github.com/anarchotechnyc/ansible-role-common) - Takes care of a few base hardening things. (Still in progress.)
