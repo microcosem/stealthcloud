@@ -1,0 +1,22 @@
+---
+- name: Provision a Stealthcloud.
+  hosts: all
+  become: true
+
+  vars:
+    stealthclouds:
+      - onion-cloud
+    onion_services:
+      - name: onion-cloud
+        auth_type: stealth
+        virtports:
+          - port_number: 80
+            target_addr: '[::1]'
+          - port_number: 443
+            target_addr: '[::1]'
+        clients:
+          - admin
+
+  roles:
+    - tor
+    - nextcloud
